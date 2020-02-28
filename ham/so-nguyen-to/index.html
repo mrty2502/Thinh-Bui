@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên tố</title>
+</head>
+<body>
+<script>
+    function isPrime(int) {
+        if (int > 1) {
+            for (i = 2; i <= Math.sqrt(int); i++) {
+                if (int % i === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+    for (x = 1; x < 10000; x++) {
+        if (isPrime(x) === true) {
+            document.write(x + ", ");
+        }
+    }
+</script>
+</body>
+</html>
