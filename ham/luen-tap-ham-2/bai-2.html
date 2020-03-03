@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 2</title>
+</head>
+<body>
+<p>Chu vi bang: <span id="chuvi"></span> </p>
+<p>Dien tich bang: <span id="dientich"></span> </p>
+
+
+<script>
+
+    function calculate_perimeter(radius) {
+        perimeter  = radius * 2 * Math.PI;
+        document.getElementById('chuvi').innerHTML = perimeter;
+    }
+
+    function calculate_acreage(radius) {
+        acreage = Math.pow(radius, 2) * Math.PI;
+        document.getElementById('dientich').innerHTML = acreage;
+
+    }
+    calculate_perimeter(+prompt('nhap ban kinh vo day de tinh chu vi'));
+    calculate_acreage(+prompt('nhap ban kinh vo day de tinh dien tinh'))
+
+</script>
+</body>
+</html>

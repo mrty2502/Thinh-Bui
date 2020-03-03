@@ -1,0 +1,31 @@
+#tittle{
+    text-align: center;
+    color: slateblue;
+    padding: 20px;
+    font-size: 30px;
+}
+
+table{
+    width: 80%;
+}
+
+#info{
+    text-align: left;
+}
+
+#time{
+    text-align: right;
+}
+#t1{
+    color: slateblue;
+}
+
+.day{
+    background-color: yellow;
+
+}
+
+.dayifo{
+    background-color: orange;
+}
+

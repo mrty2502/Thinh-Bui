@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 1</title>
+</head>
+<body>
+<script>
+    let arr = [2, 9, 5, 6, 5, 4, -1, 12];
+    let max = arr[0] * arr[1];
+
+    function maxAdj() {
+        for (i = 1; i < arr.length; i++) {
+            if (max < arr[i] * arr[i + 1]) {
+                max = arr[i] * arr[i + 1]
+            }
+        }
+        return max;
+    }
+
+    maxAdj(arr);
+    alert(max);
+</script>
+</body>
+</html>

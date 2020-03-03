@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai-5</title>
+</head>
+<body>
+<script>
+    let star = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let constellation = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+
+    function checkStar(array) {
+        for (i = 0; i < star.length; i++) {
+            if (array === star[i]) {
+                return alert(constellation[i]);
+            }
+        }
+        return alert('nhap sai');
+    }
+
+    checkStar(prompt('nhap sao vao day'));
+
+</script>
+</body>
+</html>

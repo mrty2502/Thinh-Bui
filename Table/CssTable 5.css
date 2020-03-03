@@ -1,0 +1,31 @@
+table{
+    text-align: center;
+    width: 50%;
+}
+
+th, td {
+    border: black 1px solid;
+    padding: 0;
+}
+
+.row1 {
+    color: white;
+}
+
+#h1{
+    color: darkslateblue;
+    font-size: 35px;
+
+}
+
+sub{
+    color: black;
+}
+
+.d{
+    color: green;
+
+
+}
+
+

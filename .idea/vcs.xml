@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ham/chuyen-doi-nhiet-do" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mang" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mang/https:/github.com/mrty2502/function.git" vcs="Git" />
+  </component>
+</project>

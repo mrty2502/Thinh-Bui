@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    function factorial(number) {
+        let sum = 1;
+        if (number >= 0) {
+            for (i = 2; i <= number; i++) {
+                sum *= i;
+            }
+            return sum;
+        }
+        return false;
+    }
+
+    alert(factorial(+prompt('moi so tim giai thua vo day')));
+
+</script>
+</body>
+</html>
